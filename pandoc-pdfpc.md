@@ -31,7 +31,8 @@
 
 XeLaTeX
 
-    $ pandoc -s -t beamer --pdf-engine=xelatex -V aspectratio=1610 -o test.pdf test.md
+    $ pandoc -s -t beamer --pdf-engine=xelatex -V aspectratio=1610 \
+      -o test.pdf test.md
 
 # Beispiel: Präsentation von PDF-Datei
 
